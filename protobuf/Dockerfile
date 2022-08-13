@@ -16,6 +16,7 @@ ARG PROTOC_GEN_PARQUET_VERSION=0.4.3
 ARG UPX_VERSION=3.96
 
 
+
 FROM alpine:${ALPINE_VERSION} as protoc_builder
 RUN apk add --no-cache build-base curl automake autoconf libtool git zlib-dev linux-headers cmake ninja
 
