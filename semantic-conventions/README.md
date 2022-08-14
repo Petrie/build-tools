@@ -129,3 +129,4 @@ comma using the `--parameters [{key=value},]+` or `-D` flag.
 The image also supports customising
 [Whitespace Control in Jinja templates](https://jinja.palletsprojects.com/en/3.1.x/templates/#whitespace-control)
 via the additional flag `--trim-whitespace`. Providing the flag will enable both `lstrip_blocks` and `trim_blocks`.
+
